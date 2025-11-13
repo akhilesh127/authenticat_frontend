@@ -17,7 +17,7 @@ function Signup() {
             password:password
         }
         try {
-            const res = await axios.post("https://authenticate-backend-ayo8.onrender.com/signup",user)
+            const res = await axios.post("https://authenticate-backend-1.onrender.com/signup",user)
             toast.success(res.data.message)
 
         } catch (e) {
